@@ -9,6 +9,7 @@ export interface IFilter {
 export const defaultFilter: IFilter = {
   excludedWords: ['is', 'am', 'are', 'a', 'an', 'the', 'and', 'or', 'but', 'in', 'as', 'into'],
   transform: [
+    (s) => s.replace('&', ' and '),
     (s) => {
       return XRegExp.match(s.toLocaleLowerCase(), XRegExp('[\\p{L}\\p{N}]+', 'g')).join('-')
     }
