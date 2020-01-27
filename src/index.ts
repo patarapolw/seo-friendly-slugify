@@ -7,7 +7,7 @@ export interface IFilter {
 }
 
 export const defaultFilter: IFilter = {
-  excludedWords: ['is', 'am', 'are', 'a', 'an', 'the', 'and', 'or', 'but', 'in', 'as', 'into'],
+  excludedWords: ['is', 'am', 'are', 'a', 'an', 'the', 'and', 'or', 'but', 'in', 'as'],
   transform: [
     (s) => s.replace('&', ' and '),
     (s) => {

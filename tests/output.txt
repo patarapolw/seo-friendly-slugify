@@ -37,7 +37,7 @@ how-practicing-scales-breaks-r
 implementing-syndromic-surveil
 incidences-health-it-security
 infectious-diease-surveillance
-injecting-unsafe-html-bolt-ent
+injecting-unsafe-html-into-bol
 installing-linux-wifi-support
 installing-linux-on-macos-macb
 introduction-to-public-health
