@@ -28,7 +28,7 @@ export default class Slugify {
       if (w instanceof RegExp) {
         re = w
       } else {
-        re = XRegExp(`(^|\\p{P})${w}($|\\p{P})`, 'gi')
+        re = XRegExp(`(^|\\p{P}| )${w}($|\\p{P}| )`, 'gi')
       }
 
       s = s.replace(re, ' ')
