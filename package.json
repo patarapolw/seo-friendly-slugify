@@ -34,6 +34,6 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "xregexp": "^4.2.4"
+    "xregexp": "^4.3.0"
   }
 }
